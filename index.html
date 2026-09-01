@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Drive'on — Communication & Marketing Automobile</title>
+  <meta name="description" content="Drive'on est une agence de communication spécialisée dans l’automobile : marketing digital, stratégie de communication, montage vidéo, image de marque et accompagnement des pilotes.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./modern.css">
+</head>
+
+<body>
+
+  <!-- LOADER -->
+  <div class="logo-loader" id="logoLoader">
+    <div class="logo-loader-inner">
+
+      <div class="logo-loader-brand">
+        <img
+          src="./images/Logo-PL-VF.ico"
+          alt="Logo Drive'on"
+          class="logo-loader-image"
+        >
+      </div>
+
+      <div class="logo-loader-progress">
+        <span id="loaderPercent">0</span><small>%</small>
+      </div>
+
+      <div class="logo-loader-bar">
+        <span id="loaderBar"></span>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="ds-site" id="accueil">
+
+    <!-- NAVIGATION -->
+    <header class="ds-nav-wrap">
+      <nav class="ds-nav">
+        <a href="./index.html" class="ds-logo">
+          <span class="ds-logo-mark">D</span>
+          <span>Drive'on</span>
+        </a>
+
+        <button class="ds-menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="ds-menu" id="navLinks">
+          <a href="./index.html">Accueil</a>
+          <a href="./pilotes.html">Pilotes</a>
+          <a href="./entreprises.html">Entreprises</a>
+          <a href="#services">Services</a>
+          <a href="#ambassadeur">Ambassadeur</a>
+          <a href="#offres">Offres</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <a href="#contact" class="ds-nav-cta">Échanger</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- HERO MODERNE -->
+     <!-- HERO MODERNE -->
+<section class="hero-egerie">
+
+  <div class="hero-bg">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-bg-glow hero-bg-glow-1"></div>
+    <div class="hero-bg-glow hero-bg-glow-2"></div>
+    <div class="hero-bg-lines">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="hero-egerie-wrap">
+
+    <!-- TEXTE -->
+    <div class="hero-egerie-copy">
+      <div class="hero-egerie-badge">
+        <span class="live-dot"></span>
+        Agence spécialisée · Automobile & sport auto
+      </div>
+
+      <h1 class="hero-egerie-title">
+        On accompagne<br>
+        <span class="title-gradient">les marques qui veulent accélérer.</span>
+      </h1>
+
+      <p class="hero-egerie-desc">
+        Drive'on accompagne les entreprises de l'univers automobile sur leur
+        stratégie de communication, leur marketing digital, leur image de marque,
+        leurs contenus et leurs supports vidéo. Nous proposons aussi une offre
+        complémentaire dédiée aux pilotes.
+      </p>
+
+      <div class="hero-egerie-actions">
+        <a href="#contact" class="ds-btn ds-btn-dark">Parler de mon projet</a>
+        <a href="#services" class="ds-btn ds-btn-light">Découvrir nos services</a>
+      </div>
+
+      <!-- VIDEO TEASING AJOUTÉE -->
+      <div class="hero-teaser-video" id="teaser">
+        <div class="hero-teaser-video-top">
+
+          <video
+            autoplay
+            muted
+            loop
+            playsinline
+            controls
+            poster="./images/teaser-cover.jpg"
+          >
+            <source src="./videos/teaser-driveon.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture vidéo.
+          </video>
+
+          <div class="hero-teaser-overlay"></div>
+
+          <a
+            href="./videos/teaser-driveon.mp4"
+            target="_blank"
+            rel="noopener"
+            class="hero-teaser-play"
+            aria-label="Regarder la vidéo teasing Drive'on"
+          >
+            ▶
+          </a>
+        </div>
+
+        <div class="hero-teaser-content">
+          <span>Vidéo teasing</span>
+
+          <h3>Découvrez l’univers Drive’on en vidéo.</h3>
+
+          <p>
+            Une immersion rapide dans notre approche : stratégie automobile,
+            contenus vidéo, réseaux sociaux, image de marque, pilotes et
+            communication digitale.
+          </p>
+
+          <div class="hero-teaser-tags">
+            <small>Automobile</small>
+            <small>Vidéo</small>
+            <small>Marketing digital</small>
+            <small>Sport auto</small>
+          </div>
+        </div>
+      </div>
+      <!-- FIN VIDEO TEASING -->
+
+      <div class="hero-mini-stats">
+        <div>
+          <strong>Auto</strong>
+          <span>spécialisation</span>
+        </div>
+        <div>
+          <strong>360°</strong>
+          <span>communication</span>
+        </div>
+        <div>
+          <strong>Vidéo</strong>
+          <span>contenus</span>
+        </div>
+        <div>
+          <strong>Pilotes</strong>
+          <span>offre dédiée</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARTE ROMAIN FAVRE -->
+    <div class="pilot-card">
+
+      <div class="pilot-card-header">
+        <div class="pilot-card-num">
+          <small>AMB.</small>
+          <strong>RF</strong>
+        </div>
+        <div class="pilot-card-flag">
+          <span>🇫🇷</span>
+          PILOTE LMP3
+        </div>
+      </div>
+
+      <div class="pilot-card-identity">
+        <span class="pilot-card-team">Ambassadeur Drive'on</span>
+        <h2 class="pilot-card-name">
+          Romain<br>
+          <span>Favre</span>
+        </h2>
+      </div>
+
+      <div class="pilot-card-visual pilot-card-photo">
+        <img
+          src="./images/Rom1.jpg"
+          alt="Romain Favre, pilote LMP3 et ambassadeur Drive'on"
+          class="pilot-photo"
+        >
+        <div class="pilot-photo-overlay"></div>
+        <div class="pilot-card-track-name">Romain Favre · Ambassadeur Drive'on</div>
+      </div>
+
+      <div class="pilot-card-stats">
+        <div class="pilot-stat">
+          <small>RÔLE</small>
+          <strong>Ambassadeur</strong>
+        </div>
+        <div class="pilot-stat">
+          <small>UNIVERS</small>
+          <strong>Sport auto</strong>
+        </div>
+        <div class="pilot-stat">
+          <small>PROFIL</small>
+          <strong>Pilote LMP3</strong>
+        </div>
+        <div class="pilot-stat">
+          <small>APPORT</small>
+          <strong>Vision terrain</strong>
+        </div>
+      </div>
+
+      <div class="pilot-card-footer">
+        <span class="live-badge">
+          <span class="live-dot"></span>
+          AMBASSADEUR · DRIVE'ON
+        </span>
+        <a
+          href="https://instagram.com/romainfavre_"
+          target="_blank"
+          rel="noopener"
+          class="pilot-card-social"
+        >
+          @romainfavre_
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+          <!-- CARTE ROMAIN FAVRE -->
+          <div class="pilot-card">
+
+            <div class="pilot-card-header">
+              <div class="pilot-card-num">
+                <small>AMB.</small>
+                <strong>RF</strong>
+              </div>
+              <div class="pilot-card-flag">
+                <span>🇫🇷</span>
+                PILOTE LMP3
+              </div>
+            </div>
+
+            <div class="pilot-card-identity">
+              <span class="pilot-card-team">Ambassadeur Drive'on</span>
+              <h2 class="pilot-card-name">
+                Romain<br>
+                <span>Favre</span>
+              </h2>
+            </div>
+
+            <div class="pilot-card-visual pilot-card-photo">
+              <img
+                src="./images/Rom1.jpg"
+                alt="Romain Favre, pilote LMP3 et ambassadeur Drive'on"
+                class="pilot-photo"
+              >
+              <div class="pilot-photo-overlay"></div>
+              <div class="pilot-card-track-name">Romain Favre · Ambassadeur Drive'on</div>
+            </div>
+
+            <div class="pilot-card-stats">
+              <div class="pilot-stat">
+                <small>RÔLE</small>
+                <strong>Ambassadeur</strong>
+              </div>
+              <div class="pilot-stat">
+                <small>UNIVERS</small>
+                <strong>Sport auto</strong>
+              </div>
+              <div class="pilot-stat">
+                <small>PROFIL</small>
+                <strong>Pilote LMP3</strong>
+              </div>
+              <div class="pilot-stat">
+                <small>APPORT</small>
+                <strong>Vision terrain</strong>
+              </div>
+            </div>
+
+            <div class="pilot-card-footer">
+              <span class="live-badge">
+                <span class="live-dot"></span>
+                AMBASSADEUR · DRIVE'ON
+              </span>
+              <a href="https://instagram.com/romainfavre_" target="_blank" rel="noopener" class="pilot-card-social">@romainfavre_</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- AMBASSADEUR -->
+      <section class="ds-section egerie-detail" id="ambassadeur">
+        <div class="egerie-wrap">
+
+          <div class="egerie-head">
+            <span class="ds-kicker">Ambassadeur Drive'on</span>
+            <h2>Romain Favre incarne notre lien avec le sport automobile.</h2>
+            <p>
+              Romain Favre n'est pas présenté ici comme un client accompagné, mais comme
+              une égérie et un ambassadeur qui fait confiance à Drive'on. Son regard,
+              son exigence du terrain et sa proximité avec l'univers compétition
+              renforcent notre crédibilité dans le sport auto.
+            </p>
+          </div>
+
+          <div class="egerie-grid">
+
+            <article class="egerie-card egerie-card-large">
+              <span class="ds-kicker">Pourquoi sa présence est importante</span>
+              <h3>Une voix crédible venue du terrain.</h3>
+              <p>
+                En tant que pilote LMP3, Romain évolue dans un environnement où
+                l'image, la visibilité, les partenaires et la qualité du discours
+                comptent autant que la performance sportive. Sa confiance dans Drive'on
+                confirme notre légitimité dans l'univers automobile et compétition.
+              </p>
+
+              <div class="egerie-timeline">
+                <div class="timeline-step">
+                  <span class="timeline-year">01</span>
+                  <strong>Image</strong>
+                  <small>Une présence forte et crédible</small>
+                </div>
+                <div class="timeline-step">
+                  <span class="timeline-year">02</span>
+                  <strong>Conseils</strong>
+                  <small>Un regard terrain sur le sport auto</small>
+                </div>
+                <div class="timeline-step">
+                  <span class="timeline-year">03</span>
+                  <strong>Légitimité</strong>
+                  <small>Un ancrage réel dans la compétition</small>
+                </div>
+                <div class="timeline-step timeline-active">
+                  <span class="timeline-year">04</span>
+                  <strong>Ambassadeur</strong>
+                  <small>Une relation de confiance durable</small>
+                </div>
+                <div class="timeline-step">
+                  <span class="timeline-year">05</span>
+                  <strong>Visibilité</strong>
+                  <small>Un pont entre marque et sport auto</small>
+                </div>
+                <div class="timeline-step timeline-active">
+                  <span class="timeline-year">06</span>
+                  <strong>Univers</strong>
+                  <small>Automobile premium & compétition</small>
+                </div>
+              </div>
+            </article>
+
+            <article class="egerie-card">
+              <span class="ds-kicker">Ce qu'il représente</span>
+              <h3>Un ambassadeur, pas un cas client.</h3>
+
+              <div class="egerie-numbers">
+                <div>
+                  <strong>LMP3</strong>
+                  <span>univers compétition</span>
+                </div>
+                <div>
+                  <strong>FR</strong>
+                  <span>pilote français</span>
+                </div>
+                <div>
+                  <strong>Auto</strong>
+                  <span>crédibilité sectorielle</span>
+                </div>
+                <div>
+                  <strong>Trust</strong>
+                  <span>relation de confiance</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="egerie-card egerie-card-dark">
+              <span class="ds-kicker">Son rôle chez Drive'on</span>
+              <h3>Une présence qui donne du sens à notre positionnement.</h3>
+
+              <ul class="egerie-services-list">
+                <li>
+                  <span class="egerie-check">✓</span>
+                  <div>
+                    <strong>Égérie de marque</strong>
+                    <small>Il incarne visuellement et symboliquement l'univers Drive'on</small>
+                  </div>
+                </li>
+                <li>
+                  <span class="egerie-check">✓</span>
+                  <div>
+                    <strong>Ambassadeur</strong>
+                    <small>Il représente notre lien avec la compétition et le sport auto</small>
+                  </div>
+                </li>
+                <li>
+                  <span class="egerie-check">✓</span>
+                  <div>
+                    <strong>Conseils terrain</strong>
+                    <small>Il partage sa lecture des attentes du milieu pilote / partenaire</small>
+                  </div>
+                </li>
+                <li>
+                  <span class="egerie-check">✓</span>
+                  <div>
+                    <strong>Crédibilité</strong>
+                    <small>Sa confiance valorise notre expertise dans l'univers automobile</small>
+                  </div>
+                </li>
+                <li>
+                  <span class="egerie-check">✓</span>
+                  <div>
+                    <strong>Rayonnement</strong>
+                    <small>Une passerelle naturelle entre communication et sport auto</small>
+                  </div>
+                </li>
+              </ul>
+            </article>
+
+          </div>
+
+          <blockquote class="egerie-quote">
+            <span class="quote-mark">"</span>
+            <p>
+              Drive'on parle le langage de l'automobile. Leur vision est claire,
+              moderne et cohérente avec les attentes du terrain.
+            </p>
+            <footer>
+              <strong>Romain Favre</strong>
+              <small>Pilote LMP3 · Ambassadeur Drive'on</small>
+            </footer>
+          </blockquote>
+
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="ds-section ds-bento" id="services">
+        <div class="ds-section-head">
+          <span class="ds-kicker">Nos services</span>
+          <h2>Une communication complète pour les acteurs de l'automobile.</h2>
+          <p>
+            Notre cœur de métier : accompagner les entreprises dans leur stratégie
+            de communication, leur marketing digital, leurs contenus, leur image
+            et leurs supports vidéo.
+          </p>
+        </div>
+
+        <div class="ds-bento-grid">
+          <article class="ds-service-card ds-large-card">
+            <div class="ds-icon">↗</div>
+            <h3>Stratégie de communication</h3>
+            <p>
+              Nous structurons votre prise de parole, vos messages, vos cibles, vos supports
+              et vos canaux pour construire une communication claire, cohérente et adaptée
+              à l'écosystème automobile.
+            </p>
+            <a href="#contact">Construire ma stratégie</a>
+          </article>
+
+          <article class="ds-service-card">
+            <div class="ds-icon">◎</div>
+            <h3>Marketing digital</h3>
+            <p>
+              Développement de votre visibilité en ligne : campagnes digitales,
+              réseaux sociaux, contenus, parcours de conversion et stratégie d'acquisition.
+            </p>
+          </article>
+
+          <article class="ds-service-card">
+            <div class="ds-icon">▶</div>
+            <h3>Montage vidéo</h3>
+            <p>
+              Création et montage de vidéos pour valoriser votre marque, vos véhicules,
+              vos événements, vos campagnes, vos interviews ou vos contenus réseaux sociaux.
+            </p>
+          </article>
+
+          <article class="ds-service-card">
+            <div class="ds-icon">#</div>
+            <h3>Réseaux sociaux</h3>
+            <p>
+              Planification, création de contenus, storytelling, formats courts,
+              calendrier éditorial et optimisation de votre présence digitale.
+            </p>
+          </article>
+
+          <article class="ds-service-card">
+            <div class="ds-icon">✦</div>
+            <h3>Image de marque</h3>
+            <p>
+              Positionnement, identité éditoriale, éléments de langage, supports commerciaux
+              et cohérence de marque auprès de vos parties prenantes.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- OFFRE PILOTES -->
+      <section class="ds-section ds-split" id="pilotes">
+        <div>
+          <span class="ds-kicker">Offre complémentaire pilotes</span>
+          <h2>Pilotes, structurez votre visibilité.</h2>
+        </div>
+        <div class="ds-split-content">
+          <p>
+            Drive'on propose aussi une offre complémentaire pour les pilotes :
+            dossier sponsoring, dossier de presse, image personnelle, contenus,
+            visibilité médias et structuration du discours.
+          </p>
+          <p>
+            Notre connaissance du terrain est renforcée par notre proximité avec
+            l'univers de la compétition et par la confiance de profils comme
+            Romain Favre, ambassadeur Drive'on.
+          </p>
+          <a href="#contact" class="ds-btn ds-btn-dark">Découvrir l'offre pilotes</a>
+        </div>
+      </section>
+
+      <!-- OFFRES -->
+      <section class="ds-section ds-offers" id="offres">
+        <div class="ds-offer-card ds-offer-dark">
+          <span class="ds-kicker">Offre principale</span>
+          <h2>Communication & marketing digital pour entreprises automobiles.</h2>
+          <p>
+            Stratégie, marketing digital, réseaux sociaux, contenus, vidéo, image de marque
+            et campagnes de visibilité pour les acteurs de l'automobile.
+          </p>
+        </div>
+        <div class="ds-offer-card ds-offer-light">
+          <span class="ds-kicker">Offre complémentaire</span>
+          <h2>Image pilote, sponsoring et visibilité médias.</h2>
+          <div class="ds-stat-grid">
+            <div>
+              <strong>Com</strong>
+              <span>stratégie & contenus</span>
+            </div>
+            <div>
+              <strong>Vidéo</strong>
+              <span>montage & formats courts</span>
+            </div>
+            <div>
+              <strong>Pilotes</strong>
+              <span>image & sponsors</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="ds-contact" id="contact">
+        <div class="ds-contact-inner">
+          <span class="ds-kicker">Contact</span>
+          <h2>Vous êtes une entreprise, un pilote ou un acteur de l'automobile ?</h2>
+          <p>
+            Présentez-nous votre projet. Réponse sous 24h.
+          </p>
+          <div class="ds-contact-actions">
+            <a href="mailto:bonjour@drive-on.fr" class="ds-btn ds-btn-light">bonjour@drive-on.fr</a>
+            <a href="tel:+33000000000" class="ds-btn ds-btn-dark">Planifier un échange</a>
+          </div>
+        </div>
+
+        <form class="ds-contact-form" id="contactForm">
+          <label>
+            Nom
+            <input type="text" name="name" placeholder="Votre nom" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="votre@email.fr" required>
+          </label>
+          <label>
+            Profil
+            <input type="text" name="profile" placeholder="Entreprise, pilote, média...">
+          </label>
+          <label>
+            Message
+            <textarea name="message" placeholder="Expliquez votre projet" required></textarea>
+          </label>
+          <button type="submit">Envoyer ma demande</button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer class="ds-footer">
+      <div>
+        <a href="#accueil" class="ds-logo">
+          <span class="ds-logo-mark">D</span>
+          <span>Drive'on</span>
+        </a>
+        <p>Agence de communication automobile · Égérie et ambassadeur sport auto : Romain Favre.</p>
+      </div>
+
+      <div class="ds-footer-links">
+        <a href="#ambassadeur">Ambassadeur</a>
+        <a href="#services">Services</a>
+        <a href="#pilotes">Pilotes</a>
+        <a href="#offres">Offres</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <p class="ds-copy">© <span id="year"></span> Drive'on. Tous droits réservés.</p>
+    </footer>
+
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
